@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Последний заезд Дизеля</title>
+	<link rel="stylesheet" href="css/main.css"/>
+	</head>
+<body>
+	<center>
+	<div class="container">
+		<canvas id="game" width="896" height="896"></canvas>
+		<div id="fps"></div>
+	</div>
+	</center>
+		<div class="head">
+			<center><h1>СМЕРТЕЛЬНАЯ ГОНКА</h1></center>
+			<img src="pic/vin.png"/>
+		</div>
+		<div class="scoreboard">
+			<center><h1>Крестов Дизеля собрано</h1></center>
+			<img src="pic/cross.png" height="100" width="100"/> <input disabled type="text" id="kresty" value="0"></input>
+		</div>
+		
+		<div class="desc">
+			<p>Это последний заезд Вина Дизеля...<br>
+			После этой смертельной поездки, он выходит из<br> игры.
+			Вин Дизель не уверен, что выживет после <br> такого, ведь
+			его цель уворачиваться от <br> смертоносных баррикад...
+			</p>
+			<p><p></p></p>
+			<center><p>Управление</p></center>
+			"A" - сдвинуть машину на полосу левее.<br>
+			"D" - сдвинуть машину на полосу правее.
+		</div>
+		<center>
+			<div id="ending">
+				<p>ИЗБЕЖАЛ СМЕРТИ</p>
+				<p><img src="pic/end.png"></p>
+			</div>
+		</center>
+</body>
+	<script src="scripts/main.js"></script>
+</html>
